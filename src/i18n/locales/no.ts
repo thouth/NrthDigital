@@ -1,0 +1,140 @@
+export default {
+  navigation: {
+    home: 'Hjem',
+    services: 'Tjenester',
+    about: 'Om oss',
+    cases: 'Prosjekter',
+    contact: 'Kontakt',
+  },
+  home: {
+    hero: {
+      title: 'Digital Innovasjon',
+      subtitle: 'Utvikling & AI-løsninger',
+      description: 'Vi skaper banebrytende digitale løsninger som hjelper bedrifter med å transformere og vokse i den digitale tidsalderen.',
+      cta: 'Utforsk våre tjenester',
+    },
+    services: {
+      title: 'Våre tjenester',
+      description: 'Vi tilbyr et bredt spekter av utviklings- og AI-tjenester for å hjelpe bedrifter med å innovere og vokse.',
+      development: {
+        title: 'Utvikling',
+        description: 'Skreddersydd programvareutvikling tilpasset dine forretningsbehov.',
+      },
+      ai: {
+        title: 'AI-løsninger',
+        description: 'Intelligente systemer som automatiserer prosesser og gir innsikt.',
+      },
+      consulting: {
+        title: 'Rådgivning',
+        description: 'Ekspertveiledning om digital transformasjon og teknologistrategi.',
+      },
+    },
+    cases: {
+      title: 'Prosjekter',
+      description: 'Utforsk våre nylige prosjekter og suksesshistorier.',
+      viewAll: 'Se alle prosjekter',
+    },
+    about: {
+      title: 'Om Nrth Digital',
+      description: 'Vi er et team av utviklere, designere og AI-spesialister som er lidenskapelig opptatt av å skape digitale løsninger som gjør en forskjell.',
+      stats: {
+        years: 'Års erfaring',
+        projects: 'Fullførte prosjekter',
+        clients: 'Fornøyde kunder',
+      },
+    },
+    contact: {
+      title: 'Ta kontakt',
+      description: 'Klar for å starte ditt neste prosjekt? Kontakt oss for å diskutere hvordan vi kan hjelpe.',
+      cta: 'Kontakt oss',
+    },
+  },
+  services: {
+    title: 'Våre tjenester',
+    description: 'Vi tilbyr et omfattende utvalg av digitale tjenester for å hjelpe deg til suksess.',
+    webDev: {
+      title: 'Webutvikling',
+      description: 'Moderne, responsive nettsider og webapplikasjoner bygget med de nyeste teknologiene.',
+    },
+    mobileDev: {
+      title: 'Mobilutvikling',
+      description: 'Native og cross-platform mobilapplikasjoner for iOS og Android.',
+    },
+    aiSolutions: {
+      title: 'AI-løsninger',
+      description: 'Tilpassede AI-modeller og integrasjoner for å automatisere prosesser og få innsikt.',
+    },
+    cloudServices: {
+      title: 'Skytjenester',
+      description: 'Skalerbar skyinfrastruktur og løsninger for din virksomhet.',
+    },
+    dataAnalytics: {
+      title: 'Dataanalyse',
+      description: 'Avansert dataanalyse og visualisering for å hjelpe deg med å ta bedre beslutninger.',
+    },
+    digitalStrategy: {
+      title: 'Digital strategi',
+      description: 'Strategisk veiledning om digital transformasjon og innovasjon.',
+    },
+  },
+  about: {
+    title: 'Om oss',
+    description: 'Lær mer om vårt team og vår misjon.',
+    mission: {
+      title: 'Vår misjon',
+      description: 'Å hjelpe bedrifter med å transformere og vokse gjennom innovative digitale løsninger.',
+    },
+    values: {
+      title: 'Våre verdier',
+      innovation: {
+        title: 'Innovasjon',
+        description: 'Vi utforsker konstant nye teknologier og tilnærminger.',
+      },
+      quality: {
+        title: 'Kvalitet',
+        description: 'Vi er forpliktet til å levere løsninger av høy kvalitet.',
+      },
+      collaboration: {
+        title: 'Samarbeid',
+        description: 'Vi jobber tett med våre klienter for å sikre suksess.',
+      },
+    },
+    team: {
+      title: 'Vårt team',
+      description: 'Møt menneskene bak Nrth Digital.',
+    },
+  },
+  cases: {
+    title: 'Prosjekter',
+    description: 'Utforsk våre nylige prosjekter og suksesshistorier.',
+    filters: {
+      all: 'Alle',
+      web: 'Web',
+      mobile: 'Mobil',
+      ai: 'AI',
+    },
+  },
+  contact: {
+    title: 'Kontakt oss',
+    description: 'Ta kontakt med oss for å diskutere ditt prosjekt.',
+    form: {
+      name: 'Navn',
+      email: 'E-post',
+      message: 'Melding',
+      submit: 'Send melding',
+    },
+    info: {
+      title: 'Kontaktinformasjon',
+      address: 'Oslo, Norge',
+      email: 'hei@nrthdigital.com',
+      phone: '+47 123 456 789',
+    },
+  },
+  footer: {
+    copyright: '© 2025 Nrth Digital. Alle rettigheter reservert.',
+    links: {
+      privacy: 'Personvernerklæring',
+      terms: 'Vilkår for bruk',
+    },
+  },
+};
