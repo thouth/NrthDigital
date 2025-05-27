@@ -97,13 +97,10 @@ const AboutPage: React.FC = () => {
             center
           />
           
-          {/*carousel only for mobile*/}
-          <div className='block md:hidden mt-8'>
-            <OurValuesCarousel/>
-          </div>
+          
 
           {/*our values layout for desktop*/}
-          <div className="hidden md:grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ValueCard 
               icon={<Sparkles size={24} />}
               title={t('about.values.innovation.title')}
