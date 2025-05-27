@@ -156,15 +156,17 @@ const HomePage: React.FC = () => {
 
       {/* Case Studies Section */}
       <section className="py-16">
-        <div className="container mx-auto px-6">
-          <div className="flex justify-between items-end mb-12">
-            <SectionTitle 
-              title={t('home.cases.title')}
-              description={t('home.cases.description')}
+        <div className='container mx-auto px-6'>
+          <div className='flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 mb-12'>
+            <SectionTitle
+            title={t('home.cases.title')}
+            description={t('home.cases.description')}
             />
-            <Button href="/cases" variant="outline">
-              {t('home.cases.viewAll')}
-            </Button>
+            <div className='sm:mb-1'>
+              <Button href='/cases' variant="outline" className='w-fit sm:w-auto'>
+                {t('home.cases.viewAll')}
+              </Button>
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {caseStudies.map((study, index) => (
