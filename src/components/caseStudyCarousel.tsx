@@ -36,6 +36,7 @@ const CaseStudyCarousel: React.FC<Props> = ({ cases }) => {
           >
             {pair.map((study, idx) => (
                 <CaseStudyCard
+                key={index * 2 + idx}
                 image={study.image}
                 title={study.title}
                 category={study.categoryDisplay}
