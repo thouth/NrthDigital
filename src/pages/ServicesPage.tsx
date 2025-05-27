@@ -5,6 +5,7 @@ import { Code, Smartphone, Cpu, Cloud, BarChart3, Lightbulb } from 'lucide-react
 import SectionTitle from '../components/SectionTitle';
 import ServiceCard from '../components/ServiceCard';
 import Footer from '../components/Footer';
+import ProcessesCarousel from '../components/ProcessesCarousel';
 
 const ServicesPage: React.FC = () => {
   const { t } = useTranslation();
@@ -87,9 +88,15 @@ const ServicesPage: React.FC = () => {
             title="Our Process" 
             description="We follow a structured approach to deliver high-quality solutions that meet your business needs."
           />
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div className="space-y-12">
+
+
+          {/*Mobile view*/}
+          <div className='block md:hidden mt-8'>
+            <ProcessesCarousel/>
+          </div>
+
+            {/*desktop view*/}
+          <div className="hidden md:grid grid-cols-2 gap-x-8 gap-y-12 mt-8">
               <ProcessStep 
                 number="01" 
                 title="Discovery" 
@@ -105,9 +112,7 @@ const ServicesPage: React.FC = () => {
                 title="Design" 
                 description="Our designers create wireframes and visual designs that align with your brand and requirements."
               />
-            </div>
             
-            <div className="space-y-12">
               <ProcessStep 
                 number="04" 
                 title="Development" 
@@ -123,7 +128,6 @@ const ServicesPage: React.FC = () => {
                 title="Deployment & Support" 
                 description="After successful testing, we deploy the solution and provide ongoing support and maintenance."
               />
-            </div>
           </div>
         </div>
       </section>
