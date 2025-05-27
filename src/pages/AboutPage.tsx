@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Code2, Sparkles, Share2 } from 'lucide-react';
 import SectionTitle from '../components/SectionTitle';
 import Footer from '../components/Footer';
+import OurValuesCarousel from '../components/ourValuesCarousel';
 
 const AboutPage: React.FC = () => {
   const { t } = useTranslation();
@@ -96,7 +97,13 @@ const AboutPage: React.FC = () => {
             center
           />
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/*carousel only for mobile*/}
+          <div className='block md:hidden mt-8'>
+            <OurValuesCarousel/>
+          </div>
+
+          {/*our values layout for desktop*/}
+          <div className="hidden md:grid grid-cols-1 md:grid-cols-3 gap-8">
             <ValueCard 
               icon={<Sparkles size={24} />}
               title={t('about.values.innovation.title')}
