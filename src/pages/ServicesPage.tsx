@@ -6,6 +6,7 @@ import SectionTitle from '../components/SectionTitle';
 import ServiceCard from '../components/ServiceCard';
 import Footer from '../components/Footer';
 import ProcessesCarousel from '../components/ProcessesCarousel';
+import ServiceCarousel from '../components/serviceCarousel';
 
 const ServicesPage: React.FC = () => {
   const { t } = useTranslation();
@@ -67,17 +68,24 @@ const ServicesPage: React.FC = () => {
       {/* Services Grid */}
       <section className="py-8">
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard
-                key={index}
-                icon={service.icon}
-                title={service.title}
-                description={service.description}
-                index={index}
-              />
-            ))}
+
+          {/*mobile layout*/}
+          <div className='block md:hidden mt-8'>
+            <ServiceCarousel services={services}/>
           </div>
+
+            {/*desktop layout*/}
+            <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {services.map((service, index) => (
+                <ServiceCard
+                  key={index}
+                  icon={service.icon}
+                  title={service.title}
+                  description={service.description}
+                  index={index}
+                />
+              ))}
+            </div>
         </div>
       </section>
 
