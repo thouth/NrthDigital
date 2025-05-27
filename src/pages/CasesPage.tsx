@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import SectionTitle from '../components/SectionTitle';
 import CaseStudyCard from '../components/CaseStudyCard';
 import Footer from '../components/Footer';
+import CaseStudyCarousel from '../components/caseStudyCarousel';
 
 const CasesPage: React.FC = () => {
   const { t } = useTranslation();
@@ -110,7 +110,14 @@ const CasesPage: React.FC = () => {
       {/* Case Studies Grid */}
       <section className="py-8">
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {/*mobile layout*/}
+          <div className='block md:hidden mt-8'>
+            <CaseStudyCarousel cases={filteredCases} />
+          </div>
+
+          {/*desktop layout*/}
+          <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredCases.map((study, index) => (
               <CaseStudyCard
                 key={index}
