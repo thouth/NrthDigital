@@ -7,6 +7,7 @@ import Button from '../components/Button';
 import SectionTitle from '../components/SectionTitle';
 import CaseStudyCard from '../components/CaseStudyCard';
 import Footer from '../components/Footer';
+import { caseStudies } from '../data/caseStudies';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -26,27 +27,6 @@ const HomePage: React.FC = () => {
       icon: <Users size={24} />,
       title: t('home.services.consulting.title'),
       description: t('home.services.consulting.description'),
-    },
-  ];
-
-  const caseStudies = [
-    {
-      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'AI-Powered Analytics Platform',
-      category: 'AI / Data Analytics',
-      description: 'A comprehensive analytics platform that uses AI to provide actionable insights.',
-    },
-    {
-      image: 'https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'E-commerce Mobile App',
-      category: 'Mobile Development',
-      description: 'A cross-platform mobile application for a leading e-commerce brand.',
-    },
-    {
-      image: 'https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Smart City Infrastructure',
-      category: 'IoT / Web Development',
-      description: 'An integrated solution for smart city management and monitoring.',
     },
   ];
 
@@ -120,7 +100,7 @@ const HomePage: React.FC = () => {
                 {t('home.about.description')}
               </p>
               <Button href="/about" variant="outline">
-                Learn More About Us
+                {t('home.about.learnMore')}
               </Button>
             </motion.div>
             <motion.div
@@ -142,7 +122,7 @@ const HomePage: React.FC = () => {
               <StatsCard 
                 icon={<Server size={24} />}
                 value="50+"
-                label="Technologies"
+                label={t('home.about.stats.technologies')}
               />
               <StatsCard 
                 icon={<Users size={24} />}
@@ -173,10 +153,10 @@ const HomePage: React.FC = () => {
               <CaseStudyCard
                 key={index}
                 image={study.image}
-                title={study.title}
-                category={study.category}
-                description={study.description}
-                index={index}
+                title={t(study.title)}
+                category={t(study.category)}
+                categoryDisplay={t(study.categoryDisplay)}
+                description={t(study.description)}
               />
             ))}
           </div>

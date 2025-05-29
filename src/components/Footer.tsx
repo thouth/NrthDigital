@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <Logo />
             <p className="mt-4 text-sm">
-              Innovative digital solutions for modern businesses.
+              {t('footer.text')}
             </p>
             <div className="flex space-x-4 mt-6">
               <SocialLink href="#" icon={<Github size={18} />} />
@@ -25,29 +25,29 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Services</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footer.sections.services')}</h3>
             <ul className="space-y-2">
-              <FooterLink href="/services">Web Development</FooterLink>
-              <FooterLink href="/services">Mobile Development</FooterLink>
-              <FooterLink href="/services">AI Solutions</FooterLink>
-              <FooterLink href="/services">Cloud Services</FooterLink>
+              <FooterLink href="/services">{t('footer.services.web')}</FooterLink>
+              <FooterLink href="/services">{t('footer.services.mobile')}</FooterLink>
+              <FooterLink href="/services">{t('footer.services.ai')}</FooterLink>
+              <FooterLink href="/services">{t('footer.services.cloud')}</FooterLink>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footer.sections.company')}</h3>
             <ul className="space-y-2">
-              <FooterLink href="/about">About Us</FooterLink>
-              <FooterLink href="/cases">Case Studies</FooterLink>
-              <FooterLink href="/contact">Contact</FooterLink>
-              <FooterLink href="/careers">Careers</FooterLink>
+              <FooterLink href="/about">{t('footer.company.about')}</FooterLink>
+              <FooterLink href="/cases">{t('footer.company.cases')}</FooterLink>
+              <FooterLink href="/contact">{t('footer.company.contact')}</FooterLink>
+              <FooterLink href="/careers">{t('footer.company.careers')}</FooterLink>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Contact</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footer.sections.contact')}</h3>
             <address className="not-italic">
-              <p>Oslo, Norway</p>
+              <p>{t('footer.contactInfo.location')}</p>
               <p className="mt-2">
                 <a href="mailto:hello@nrthdigital.com" className="hover:text-primary-400 transition-colors">
                   hello@nrthdigital.com

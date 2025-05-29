@@ -7,6 +7,17 @@ import CaseStudyCarousel from '../components/caseStudyCarousel';
 
 const CasesPage: React.FC = () => {
   const { t } = useTranslation();
+  {caseStudies.map((study, index) => (
+      <CaseStudyCard
+      key={index}
+      image={study.image}
+      title={t(study.title)}
+      category={t(study.category)}
+      categoryDisplay={t(study.categoryDisplay)}
+      description={t(study.description)}
+      />
+    ))}
+
   const [activeFilter, setActiveFilter] = useState('all');
 
   const caseStudies = [

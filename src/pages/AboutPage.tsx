@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import { Code2, Sparkles, Share2 } from 'lucide-react';
 import SectionTitle from '../components/SectionTitle';
 import Footer from '../components/Footer';
+{/* import below if we want to roll back to carousel for mobile view.
 import OurValuesCarousel from '../components/ourValuesCarousel';
+*/}
 
 const AboutPage: React.FC = () => {
   const { t } = useTranslation();
