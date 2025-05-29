@@ -8,11 +8,13 @@ import AboutPage from './pages/AboutPage';
 import CasesPage from './pages/CasesPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
+import ScrollToTop from './components/scrollHelpers/scrollToTop';
 
 function App() {
   return (
     <LanguageProvider>
       <BrowserRouter>
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<HomePage />} />

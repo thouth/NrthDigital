@@ -4,9 +4,20 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Sidebar from '../components/Sidebar';
 import MobileMenu from '../components/MobileMenu';
 import { Menu, X } from 'lucide-react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const MainLayout: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+  const timeout = setTimeout(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, 300); // 300ms matches your framer-motion transition
+
+  return () => clearTimeout(timeout);
+}, [location.pathname]);
 
   return (
     <div className="flex h-screen bg-dark-100 text-gray-100">
