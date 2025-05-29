@@ -119,6 +119,36 @@ export default {
       title: 'Digital Strategy',
       description: 'Strategic guidance on digital transformation and innovation.',
     },
+    process: {
+      discover: {
+        title: 'Discovery',
+        description: 'We start by understanding your business, goals, and requirements through in-depth consultations.',
+      },
+      planning: {
+        title: 'Planning',
+        description: 'Based on the discovery phase, we create a detailed plan including timelines, resources, and deliverables.',
+      },
+      design: {
+        title: 'Design',
+        description: 'Our designers create wireframes and visual designs that align with your brand and requirements.',
+      },
+      development: {
+        title: 'Development',
+        description: 'Our development team brings the designs to life using the latest technologies and best practices.',
+      },
+      testing: {
+        title: 'Testing',
+        description: 'We thoroughly test all aspects of the solution to ensure quality and performance.',
+      },
+      deployment: {
+        title: 'Deployment & Support',
+        description: 'After successful testing, we deploy the solution and provide ongoing support and maintenance.',
+      },
+    },
+    technologies: {
+      title: 'Technologies We Use',
+      description: 'We leverage cutting-edge technologies to deliver innovative solutions.',
+    }
   },
   about: {
     title: 'About Us',

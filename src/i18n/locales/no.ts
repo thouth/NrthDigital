@@ -117,6 +117,36 @@ export default {
       title: 'Digital strategi',
       description: 'Strategisk veiledning om digital transformasjon og innovasjon.',
     },
+    process: {
+      discover: {
+        title: 'Oppdag',
+        description: 'Vi starter med å forstå din virksomhet, mål og krav gjennom grundige konsultasjoner.',
+      },
+      planning: {
+        title: 'Planlegg',
+        description: 'Basert på kartleggingen utarbeider vi en detaljert plan med tidslinjer, ressurser og leveranser.',
+      },
+      design: {
+        title: 'Design',
+        description:'Våre designere lager wireframes og visuelle konsepter tilpasset din merkevare og behov.',
+      },
+      development: {
+        title: 'utvikling',
+        description: 'Vårt utviklingsteam realiserer designene ved hjelp av moderne teknologier og beste praksis.',
+      },
+      testing: {
+        title: 'Testing',
+        description: 'Vi tester og kvalitetssikrer våre løsninger for å sikre kvalitet og ytelse.',
+      },
+      deployment: {
+        title: 'Lansering og support',
+        description: 'Etter testing lanserer vi løsningen og tilbyr vedvarende støtte og vedlikehold.',
+      },
+    },
+    technologies: {
+      title: 'Teknologier vi bruker',
+      description: 'Vi utnytter banebrytende teknologier for å levere innovative løsninger.',
+    }
   },
   about: {
     title: 'Om oss',
