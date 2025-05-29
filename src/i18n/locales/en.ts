@@ -41,7 +41,7 @@ export default {
           categoryDisplay: 'AI / Data Analytics',
           description: 'A comprehensive analytics platform that uses AI to provide actionable insights for a leading retail company.',
         },
-        MobileApp: {
+        mobileApp: {
           title: 'E-commerce Mobile App',
           category: 'mobile',
           categoryDisplay: 'Mobile Development',
@@ -65,7 +65,7 @@ export default {
           categoryDisplay: 'Web / Mobile',
           description: 'A patient management portal for healthcare providers, streamlining appointment scheduling and medical records.',
         },
-        PredictiveMaintenanceSystem: {
+        predictiveMaintenanceSystem: {
           title: 'Predictive Maintenance System',
           category: 'ai',
           categoryDisplay: 'AI / IoT',

@@ -36,9 +36,9 @@ export default {
       viewCase: 'Se Prosjekt',
       projects: {
         aiAnalytics: {
-          title: 'AI-basert analysering',
+          title: 'KI-basert analysering',
           category: 'ki',
-          categoryDisplay: 'AI / Data analyse',
+          categoryDisplay: 'KI / Data analyse',
           description: 'En omfattende analyseplattform som bruker kunstig intelligens for å gi handlingsrettede innsikter for et ledende detaljhandelsselskap.',
         },
         mobileApp: {
@@ -49,19 +49,19 @@ export default {
         },
         smartCity: {
           title: 'Smart Byinfrastruktur',
-          category: 'Web',
+          category: 'Webutivkling',
           categoryDisplay: 'IOT / Webutvikling',
           description: 'En integrert løsning for styring og overvåkning av smarte byer ved hjelp av IoT-sensorer og sanntidsdata.',
         },
         tradingPlatform: {
           title: 'Finansiell Handelsplattform',
-          category: 'Web',
+          category: 'Webutvikling',
           categoryDisplay: 'Webutvikling',
           description: 'En sikker og høytytende handelsplattform med sanntidsvisualisering og analyseverktøy.',
         },
         healthCarePortal: {
           title: 'Pasientportal for Helsetjenester',
-          category: 'Web',
+          category: 'Webutvikling',
           categoryDisplay: 'Webutvikling / Mobilutvikling',
           description: 'En portal for pasientadministrasjon rettet mot helsepersonell, som forenkler timebestilling og tilgang til medisinske journaler.',
         },
@@ -182,7 +182,7 @@ export default {
       all: 'Alle',
       web: 'Web',
       mobile: 'Mobil',
-      ai: 'AI',
+      ai: 'KI',
     },
   },
   contact: {
