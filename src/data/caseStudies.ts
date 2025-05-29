@@ -31,7 +31,7 @@ export const caseStudies = [
       image: 'https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       title: 'home.cases.projects.healthCarePortal.title',
       category: 'home.cases.projects.healthCarePortal.category',
-      categoryDisplay: 'home.cases.projects.healthCarePortal.category.Display',
+      categoryDisplay: 'home.cases.projects.healthCarePortal.categoryDisplay',
       description: 'home.cases.projects.healthCarePortal.description',
     },
     {
