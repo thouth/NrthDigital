@@ -202,6 +202,15 @@ export default {
       email: 'hello@nrthdigital.com',
       phone: '+47 123 456 789',
     },
+    hours: {
+      officeHours: 'Åpent',
+      openingHours: 'Mandag - Fredag: 9:00 - 17:00',
+      openingHoursWeekend: 'Lørdag - Søndag: Stengt',
+    },
+    location: {
+      findUs:"Find Us in Oslo",
+      address: "Storgata 32, 0184 Oslo, Norway",
+    }
   },
     footer: {
       copyright: '© 2025 Nrth Digital. All rights reserved.',

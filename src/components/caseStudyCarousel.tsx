@@ -39,7 +39,8 @@ const CaseStudyCarousel: React.FC<Props> = ({ cases }) => {
                 key={index * 2 + idx}
                 image={study.image}
                 title={study.title}
-                category={study.categoryDisplay}
+                category={study.category}
+                categoryDisplay={study.categoryDisplay}
                 description={study.description}
                 index={index * 2 + idx}
                     />

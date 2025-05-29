@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
-import { caseStudies } from '../data/caseStudies';
 import { useTranslation } from 'react-i18next';
 
 

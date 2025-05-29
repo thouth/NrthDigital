@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone } from 'lucide-react';
-import SectionTitle from '../components/SectionTitle';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
@@ -52,23 +51,24 @@ const ContactPage: React.FC = () => {
                 <ContactInfo
                   icon={<Mail size={20} />}
                   title={t('contact.info.email')}
-                  detail="hello@nrthdigital.com"
+                
                   link="mailto:hello@nrthdigital.com"
                 />
                 <ContactInfo
                   icon={<Phone size={20} />}
                   title={t('contact.info.phone')}
-                  detail="+47 123 456 789"
                   link="tel:+4712345678"
                 />
               </div>
               
               <div className="mt-12">
                 <h3 className="text-xl font-semibold mb-6 text-white">
-                  Office Hours
+                  {t('contact.hours.officeHours')}
                 </h3>
-                <p className="text-gray-400 mb-2">Monday - Friday: 9:00 - 17:00</p>
-                <p className="text-gray-400">Saturday - Sunday: Closed</p>
+                <p className="text-gray-400 mb-2">{t('contact.hours.openingHours')}
+                </p>
+                <p className="text-gray-400">{t('contact.hours.openingHoursWeekend')}
+                </p>
               </div>
             </div>
           </div>
@@ -83,8 +83,10 @@ const ContactPage: React.FC = () => {
             <div className="w-full h-full bg-dark-300 flex items-center justify-center">
               <div className="text-center">
                 <MapPin size={48} className="text-primary-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-white mb-2">Find Us in Oslo</h3>
-                <p className="text-gray-400">Storgata 32, 0184 Oslo, Norway</p>
+                <h3 className="text-xl font-semibold text-white mb-2">{t('contact.location.findUs')}
+                </h3>
+                <p className="text-gray-400">{t('contact.location.address')}
+                </p>
               </div>
             </div>
           </div>
