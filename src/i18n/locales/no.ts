@@ -33,14 +33,55 @@ export default {
       title: 'Prosjekter',
       description: 'Utforsk våre nylige prosjekter og suksesshistorier.',
       viewAll: 'Se alle prosjekter',
+      viewCase: 'Se Prosjekt',
+      projects: {
+        aiAnalytics: {
+          title: 'AI-basert analysering',
+          category: 'ki',
+          categoryDisplay: 'AI / Data analyse',
+          description: 'En omfattende analyseplattform som bruker kunstig intelligens for å gi handlingsrettede innsikter for et ledende detaljhandelsselskap.',
+        },
+        mobileApp: {
+          title: 'Mobilapp for netthandel',
+          category: 'Mobilutvikling',
+          categoryDisplay: 'Mobilutvikling',
+          description: 'En plattformuavhengig mobilapplikasjon for et ledende e-handelsmerke, som muliggjør en sømløs handleopplevelse.',
+        },
+        smartCity: {
+          title: 'Smart Byinfrastruktur',
+          category: 'Web',
+          categoryDisplay: 'IOT / Webutvikling',
+          description: 'En integrert løsning for styring og overvåkning av smarte byer ved hjelp av IoT-sensorer og sanntidsdata.',
+        },
+        tradingPlatform: {
+          title: 'Finansiell Handelsplattform',
+          category: 'Web',
+          categoryDisplay: 'Webutvikling',
+          description: 'En sikker og høytytende handelsplattform med sanntidsvisualisering og analyseverktøy.',
+        },
+        healthCarePortal: {
+          title: 'Pasientportal for Helsetjenester',
+          category: 'Web',
+          categoryDisplay: 'Webutvikling / Mobilutvikling',
+          description: 'En portal for pasientadministrasjon rettet mot helsepersonell, som forenkler timebestilling og tilgang til medisinske journaler.',
+        },
+        predictiveMaintenanceSystem: {
+          title: 'Prediktivt Vedlikeholdssystem',
+          category: 'KI',
+          categoryDisplay: 'KI',
+          description: 'Et AI-basert system for prediktivt vedlikehold av industrielt utstyr, som reduserer nedetid og vedlikeholdskostnader.',
+        },
+      }
     },
     about: {
       title: 'Om Nrth Digital',
       description: 'Vi er et team av utviklere, designere og AI-spesialister som er lidenskapelig opptatt av å skape digitale løsninger som gjør en forskjell.',
+      learnMore: 'Lær mer om oss',
       stats: {
         years: 'Års erfaring',
         projects: 'Fullførte prosjekter',
         clients: 'Fornøyde kunder',
+        technologies: 'Teknologier',
       },
     },
     contact: {
@@ -132,9 +173,32 @@ export default {
   },
   footer: {
     copyright: '© 2025 Nrth Digital. Alle rettigheter reservert.',
+    text: 'Innovative digitale løsninger for moderne virksomheter.',
     links: {
       privacy: 'Personvernerklæring',
       terms: 'Vilkår for bruk',
     },
-  },
+    sections: {
+      services: 'Tjenester',
+      company: 'Selskap',
+      contact: 'Kontakt',
+    },
+    services: {
+      web: 'Webutvikling',
+      mobile: 'Mobilutvikling',
+      ai: 'AI-løsninger',
+      cloud: 'Skytjenester',
+    },
+    company: {
+      about: 'Om oss',
+      cases: 'Prosjekter',
+      contact: 'Kontakt',
+      careers: 'Karriere',
+    },
+    contactInfo: {
+      location: 'Oslo, Norge',
+      email: 'hello@nrthdigital.com',
+      phone: '+47 123 456 789',
+    },
+  }
 };

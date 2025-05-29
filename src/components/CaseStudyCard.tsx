@@ -1,16 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import { caseStudies } from '../data/caseStudies';
+import { useTranslation } from 'react-i18next';
+
 
 interface CaseStudyCardProps {
   image: string;
   title: string;
   category: string;
+  categoryDisplay: string;
   description: string;
   index: number;
 }
 
-const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ image, title, category, description, index }) => {
+const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ image, title, category, categoryDisplay, description, index }) => {
+  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -36,7 +41,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({ image, title, category, d
           transition={{ delay: 0.2 }}
           className="flex items-center text-primary-500 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
-          View Case Study <ExternalLink size={16} className="ml-2" />
+          {t('home.cases.viewCase')} <ExternalLink size={16} className="ml-2" />
         </motion.div>
       </div>
     </motion.div>
