@@ -36,9 +36,9 @@ export default {
       viewCase: 'Se Prosjekt',
       projects: {
         aiAnalytics: {
-          title: 'AI-basert analysering',
+          title: 'KI-basert analysering',
           category: 'ki',
-          categoryDisplay: 'AI / Data analyse',
+          categoryDisplay: 'KI / Data analyse',
           description: 'En omfattende analyseplattform som bruker kunstig intelligens for å gi handlingsrettede innsikter for et ledende detaljhandelsselskap.',
         },
         mobileApp: {
@@ -49,19 +49,19 @@ export default {
         },
         smartCity: {
           title: 'Smart Byinfrastruktur',
-          category: 'Web',
+          category: 'Webutivkling',
           categoryDisplay: 'IOT / Webutvikling',
           description: 'En integrert løsning for styring og overvåkning av smarte byer ved hjelp av IoT-sensorer og sanntidsdata.',
         },
         tradingPlatform: {
           title: 'Finansiell Handelsplattform',
-          category: 'Web',
+          category: 'Webutvikling',
           categoryDisplay: 'Webutvikling',
           description: 'En sikker og høytytende handelsplattform med sanntidsvisualisering og analyseverktøy.',
         },
         healthCarePortal: {
           title: 'Pasientportal for Helsetjenester',
-          category: 'Web',
+          category: 'Webutvikling',
           categoryDisplay: 'Webutvikling / Mobilutvikling',
           description: 'En portal for pasientadministrasjon rettet mot helsepersonell, som forenkler timebestilling og tilgang til medisinske journaler.',
         },
@@ -117,6 +117,36 @@ export default {
       title: 'Digital strategi',
       description: 'Strategisk veiledning om digital transformasjon og innovasjon.',
     },
+    process: {
+      discover: {
+        title: 'Oppdag',
+        description: 'Vi starter med å forstå din virksomhet, mål og krav gjennom grundige konsultasjoner.',
+      },
+      planning: {
+        title: 'Planlegg',
+        description: 'Basert på kartleggingen utarbeider vi en detaljert plan med tidslinjer, ressurser og leveranser.',
+      },
+      design: {
+        title: 'Design',
+        description:'Våre designere lager wireframes og visuelle konsepter tilpasset din merkevare og behov.',
+      },
+      development: {
+        title: 'utvikling',
+        description: 'Vårt utviklingsteam realiserer designene ved hjelp av moderne teknologier og beste praksis.',
+      },
+      testing: {
+        title: 'Testing',
+        description: 'Vi tester og kvalitetssikrer våre løsninger for å sikre kvalitet og ytelse.',
+      },
+      deployment: {
+        title: 'Lansering og support',
+        description: 'Etter testing lanserer vi løsningen og tilbyr vedvarende støtte og vedlikehold.',
+      },
+    },
+    technologies: {
+      title: 'Teknologier vi bruker',
+      description: 'Vi utnytter banebrytende teknologier for å levere innovative løsninger.',
+    }
   },
   about: {
     title: 'Om oss',
@@ -152,7 +182,7 @@ export default {
       all: 'Alle',
       web: 'Web',
       mobile: 'Mobil',
-      ai: 'AI',
+      ai: 'KI',
     },
   },
   contact: {
@@ -167,9 +197,18 @@ export default {
     info: {
       title: 'Kontaktinformasjon',
       address: 'Oslo, Norge',
-      email: 'hei@nrthdigital.com',
+      email: 'hello@nrthdigital.com',
       phone: '+47 123 456 789',
     },
+    hours: {
+      officeHours: 'ÅpningsTider',
+      openingHours: 'Mandag - Fredag: 9:00 - 17:00',
+      openingHoursWeekend: 'Lørdag - Søndag: Stengt',
+    },
+    location: {
+      findUs:"Finn oss i Oslo",
+      address: "Storgata 32, 0184 Oslo, Norge",
+    }
   },
   footer: {
     copyright: '© 2025 Nrth Digital. Alle rettigheter reservert.',

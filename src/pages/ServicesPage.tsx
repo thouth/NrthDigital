@@ -107,34 +107,34 @@ const ServicesPage: React.FC = () => {
           <div className="hidden md:grid grid-cols-2 gap-x-8 gap-y-12 mt-8">
               <ProcessStep 
                 number="01" 
-                title="Discovery" 
-                description="We start by understanding your business, goals, and requirements through in-depth consultations."
+                title={t('services.process.discover.title')}
+                description={t('services.process.discover.description')}
               />
               <ProcessStep 
                 number="02" 
-                title="Planning" 
-                description="Based on the discovery phase, we create a detailed plan including timelines, resources, and deliverables."
+                title={t('services.process.planning.title')}
+                description={t('services.process.planning.description')}
               />
               <ProcessStep 
                 number="03" 
-                title="Design" 
-                description="Our designers create wireframes and visual designs that align with your brand and requirements."
+                title={t('services.process.design.title')}
+                description={t('services.process.design.description')}
               />
             
               <ProcessStep 
                 number="04" 
-                title="Development" 
-                description="Our development team brings the designs to life using the latest technologies and best practices."
+                title={t('services.process.development.title')}
+                description={t('services.process.development.description')}
               />
               <ProcessStep 
                 number="05" 
-                title="Testing" 
-                description="We thoroughly test all aspects of the solution to ensure quality and performance."
+                title={t('services.process.testing.title')}
+                description={t('services.process.testing.description')}
               />
               <ProcessStep 
                 number="06" 
-                title="Deployment & Support" 
-                description="After successful testing, we deploy the solution and provide ongoing support and maintenance."
+                title={t('services.process.deployment.title')}
+                description={t('services.process.deployment.description')}
               />
           </div>
         </div>
@@ -144,8 +144,8 @@ const ServicesPage: React.FC = () => {
       <section className="py-16 bg-dark-200/50">
         <div className="container mx-auto px-6">
           <SectionTitle 
-            title="Technologies We Use" 
-            description="We leverage cutting-edge technologies to deliver innovative solutions."
+            title={t('services.technologies.title')} 
+            description={t('services.technologies.description')}
             center
           />
           

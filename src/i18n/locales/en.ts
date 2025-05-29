@@ -41,7 +41,7 @@ export default {
           categoryDisplay: 'AI / Data Analytics',
           description: 'A comprehensive analytics platform that uses AI to provide actionable insights for a leading retail company.',
         },
-        MobileApp: {
+        mobileApp: {
           title: 'E-commerce Mobile App',
           category: 'mobile',
           categoryDisplay: 'Mobile Development',
@@ -65,7 +65,7 @@ export default {
           categoryDisplay: 'Web / Mobile',
           description: 'A patient management portal for healthcare providers, streamlining appointment scheduling and medical records.',
         },
-        PredictiveMaintenanceSystem: {
+        predictiveMaintenanceSystem: {
           title: 'Predictive Maintenance System',
           category: 'ai',
           categoryDisplay: 'AI / IoT',
@@ -119,6 +119,36 @@ export default {
       title: 'Digital Strategy',
       description: 'Strategic guidance on digital transformation and innovation.',
     },
+    process: {
+      discover: {
+        title: 'Discovery',
+        description: 'We start by understanding your business, goals, and requirements through in-depth consultations.',
+      },
+      planning: {
+        title: 'Planning',
+        description: 'Based on the discovery phase, we create a detailed plan including timelines, resources, and deliverables.',
+      },
+      design: {
+        title: 'Design',
+        description: 'Our designers create wireframes and visual designs that align with your brand and requirements.',
+      },
+      development: {
+        title: 'Development',
+        description: 'Our development team brings the designs to life using the latest technologies and best practices.',
+      },
+      testing: {
+        title: 'Testing',
+        description: 'We thoroughly test all aspects of the solution to ensure quality and performance.',
+      },
+      deployment: {
+        title: 'Deployment & Support',
+        description: 'After successful testing, we deploy the solution and provide ongoing support and maintenance.',
+      },
+    },
+    technologies: {
+      title: 'Technologies We Use',
+      description: 'We leverage cutting-edge technologies to deliver innovative solutions.',
+    }
   },
   about: {
     title: 'About Us',
@@ -172,6 +202,15 @@ export default {
       email: 'hello@nrthdigital.com',
       phone: '+47 123 456 789',
     },
+    hours: {
+      officeHours: 'Åpent',
+      openingHours: 'Mandag - Fredag: 9:00 - 17:00',
+      openingHoursWeekend: 'Lørdag - Søndag: Stengt',
+    },
+    location: {
+      findUs:"Find Us in Oslo",
+      address: "Storgata 32, 0184 Oslo, Norway",
+    }
   },
     footer: {
       copyright: '© 2025 Nrth Digital. All rights reserved.',
