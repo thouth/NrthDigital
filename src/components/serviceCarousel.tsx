@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
+import { useTranslation } from 'react-i18next';
 
 interface Service {
     title:string;
@@ -13,6 +14,7 @@ interface Props {
 
 
 const ServiceCarousel: React.FC<Props> = ({services}) => {
+  const { t } = useTranslation();
     const slides = [];
     for (let i = 0; i < services.length; i += 2) {
     slides.push(services.slice(i, i + 2));
@@ -21,7 +23,7 @@ const ServiceCarousel: React.FC<Props> = ({services}) => {
     return (
     <div className="w-full overflow-hidden">
       <p className="flex items-center gap-2 text-sm text-gray-300 mb-4 sm:hidden px-6">
-        <span>Swipe to view more services</span>
+        <span>{t('home.services.mobileswipe')}</span>
         <span className="text-black text-lg">➡️</span>
       </p>
 

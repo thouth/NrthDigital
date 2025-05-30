@@ -93,8 +93,8 @@ const ServicesPage: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-6">
           <SectionTitle 
-            title="Our Process" 
-            description="We follow a structured approach to deliver high-quality solutions that meet your business needs."
+            title={t('services.process.headingTitle')}
+            description={t('services.process.headingDescription')}
           />
 
 

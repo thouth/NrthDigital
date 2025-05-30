@@ -16,6 +16,7 @@ export default {
     services: {
       title: 'Our Services',
       description: 'We offer a wide range of development and AI services to help businesses innovate and grow.',
+      mobileswipe: 'Swipe to see more',
       development: {
         title: 'Development',
         description: 'Custom software development tailored to your business needs.',
