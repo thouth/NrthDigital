@@ -60,16 +60,6 @@ const ContactPage: React.FC = () => {
                   link="tel:+4712345678"
                 />
               </div>
-              
-              <div className="mt-12">
-                <h3 className="text-xl font-semibold mb-6 text-white">
-                  {t('contact.hours.officeHours')}
-                </h3>
-                <p className="text-gray-400 mb-2">{t('contact.hours.openingHours')}
-                </p>
-                <p className="text-gray-400">{t('contact.hours.openingHoursWeekend')}
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -79,7 +69,7 @@ const ContactPage: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="bg-dark-200 rounded-lg overflow-hidden h-96">
-            {/* This would be replaced with an actual map integration */}
+            {/* This will be replaced with an actual map integration */}
             <div className="w-full h-full bg-dark-300 flex items-center justify-center">
               <div className="text-center">
                 <MapPin size={48} className="text-primary-500 mx-auto mb-4" />
