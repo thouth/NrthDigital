@@ -23,7 +23,7 @@ const ServiceCarousel: React.FC<Props> = ({services}) => {
     return (
     <div className="w-full overflow-hidden">
       <p className="flex items-center gap-2 text-sm text-gray-300 mb-4 sm:hidden px-6">
-        <span>{t('home.services.mobileswipe')}</span>
+        <span>{t('services.process.mobileswipe')}</span>
         <span className="text-black text-lg">➡️</span>
       </p>
 

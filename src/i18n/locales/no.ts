@@ -16,7 +16,6 @@ export default {
     services: {
       title: 'Våre tjenester',
       description: 'Vi tilbyr et bredt spekter av utviklings- og AI-tjenester for å hjelpe bedrifter med å innovere og vokse.',
-      mobileswipe: 'Sveip for å se mer',
       development: {
         title: 'Utvikling',
         description: 'Skreddersydd programvareutvikling tilpasset dine forretningsbehov.',
@@ -121,6 +120,7 @@ export default {
     process: {
       headingTitle: "Vår Prosess",
       headingDescription: "Vi følger en strukturert tilnærming for å levere løsninger av høy kvalitet som møter dine forretningsbehov.",
+      mobileswipe: 'Sveip for å se mer',
       discover: {
         title: 'Oppdag',
         description: 'Vi starter med å forstå din virksomhet, mål og krav gjennom grundige konsultasjoner.',

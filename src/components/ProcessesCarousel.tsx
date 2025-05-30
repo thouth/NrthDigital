@@ -48,7 +48,7 @@ const ProcessCarousel: React.FC = () => {
       <div className="w-full overflow-hidden">
         {/* ✅ Text should show on all screen sizes now */}
         <p className="text-sm text-white-400 mb-4 px-0 sm:hidden">
-          <span>Swipe to move between steps</span>
+          <span>{t('services.process.mobileswipe')}</span>
         </p>
 
         <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 px-4 pb-2 scroll-smooth">
