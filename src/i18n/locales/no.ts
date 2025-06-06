@@ -199,7 +199,7 @@ export default {
     },
     info: {
       title: 'Kontaktinformasjon',
-      address: 'Oslo, Norge',
+      address: 'Bergen, Norge',
       email: 'digital@nrth.no',
       phone: '+47 911 30 646',
     },

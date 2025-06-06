@@ -201,7 +201,7 @@ export default {
     },
     info: {
       title: 'Contact Information',
-      address: 'Oslo, Norway',
+      address: 'Bergen, Norway',
       email: 'digital@nrth.no',
       phone: '+47 911 30 646',
     },

@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -16,12 +16,7 @@ const Footer: React.FC = () => {
             <p className="mt-4 text-sm">
               {t('footer.text')}
             </p>
-            <div className="flex space-x-4 mt-6">
-              <SocialLink href="#" icon={<Github size={18} />} />
-              <SocialLink href="#" icon={<Twitter size={18} />} />
-              <SocialLink href="#" icon={<Linkedin size={18} />} />
-              <SocialLink href="#" icon={<Mail size={18} />} />
-            </div>
+
           </div>
           
           <div>
@@ -40,7 +35,6 @@ const Footer: React.FC = () => {
               <FooterLink href="/about">{t('footer.company.about')}</FooterLink>
               <FooterLink href="/cases">{t('footer.company.cases')}</FooterLink>
               <FooterLink href="/contact">{t('footer.company.contact')}</FooterLink>
-              <FooterLink href="/careers">{t('footer.company.careers')}</FooterLink>
             </ul>
           </div>
           
@@ -80,23 +74,6 @@ const Footer: React.FC = () => {
   );
 };
 
-interface SocialLinkProps {
-  href: string;
-  icon: React.ReactNode;
-}
-
-const SocialLink: React.FC<SocialLinkProps> = ({ href, icon }) => {
-  return (
-    <a 
-      href={href} 
-      className="w-8 h-8 flex items-center justify-center rounded-full bg-dark-300 text-gray-400 hover:bg-primary-600 hover:text-white transition-colors"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {icon}
-    </a>
-  );
-};
 
 interface FooterLinkProps {
   href: string;
