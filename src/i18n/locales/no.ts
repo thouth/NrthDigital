@@ -238,9 +238,9 @@ export default {
       careers: 'Karriere',
     },
     contactInfo: {
-      location: 'Oslo, Norge',
-      email: 'hello@nrthdigital.com',
-      phone: '+47 123 456 789',
+      location: 'Bergen, Norge',
+      email: 'post@nrthdigital.com',
+      phone: '+47 911 30 646',
     },
   }
 };

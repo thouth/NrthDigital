@@ -49,13 +49,13 @@ const Footer: React.FC = () => {
             <address className="not-italic">
               <p>{t('footer.contactInfo.location')}</p>
               <p className="mt-2">
-                <a href="mailto:hello@nrthdigital.com" className="hover:text-primary-400 transition-colors">
-                  hello@nrthdigital.com
+                <a href="mailto:post@nrthdigital.com" className="hover:text-primary-400 transition-colors">
+                  post@nrthdigital.com
                 </a>
               </p>
               <p className="mt-2">
-                <a href="tel:+4712345678" className="hover:text-primary-400 transition-colors">
-                  +47 123 456 789
+                <a href="tel:+4791130646" className="hover:text-primary-400 transition-colors">
+                  +47 911 30 646
                 </a>
               </p>
             </address>
