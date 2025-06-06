@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
               <p>{t('footer.contactInfo.location')}</p>
               <p className="mt-2">
                 <a href="mailto:post@nrthdigital.com" className="hover:text-primary-400 transition-colors">
-                  post@nrthdigital.com
+                  digital@nrth.no
                 </a>
               </p>
               <p className="mt-2">

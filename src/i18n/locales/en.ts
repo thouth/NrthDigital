@@ -202,8 +202,8 @@ export default {
     info: {
       title: 'Contact Information',
       address: 'Oslo, Norway',
-      email: 'hello@nrthdigital.com',
-      phone: '+47 123 456 789',
+      email: 'digital@nrth.no',
+      phone: '+47 911 30 646',
     },
     hours: {
       officeHours: 'Åpent',
@@ -211,8 +211,8 @@ export default {
       openingHoursWeekend: 'Lørdag - Søndag: Stengt',
     },
     location: {
-      findUs:"Find Us in Oslo",
-      address: "Storgata 32, 0184 Oslo, Norway",
+      findUs:"Find Us in Bergen",
+      address: "Inndalsveien 90, 5063 Bergen, Norway",
     }
   },
     footer: {
@@ -241,7 +241,7 @@ export default {
     },
     contactInfo: {
       location: 'Bergen, Norway',
-      email: 'post@nrthdigital.com',
+      email: 'digital@nrth.no',
       phone: '+47 911 30 646',
     },
   }

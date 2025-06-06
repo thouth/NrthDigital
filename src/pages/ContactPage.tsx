@@ -46,7 +46,7 @@ const ContactPage: React.FC = () => {
                 <ContactInfo
                   icon={<MapPin size={20} />}
                   title={t('contact.info.address')}
-                  detail="Storgata 32, 0184 Oslo"
+                  detail="Inndalsveien 90, 5063 Bergen"
                 />
                 <ContactInfo
                   icon={<Mail size={20} />}
