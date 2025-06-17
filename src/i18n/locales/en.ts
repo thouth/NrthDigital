@@ -202,7 +202,7 @@ export default {
     info: {
       title: 'Contact Information',
       address: 'Bergen, Norway',
-      email: 'digital@nrth.no',
+      email: 'thomas@nrth.no',
       phone: '+47 911 30 646',
     },
     hours: {
@@ -241,7 +241,7 @@ export default {
     },
     contactInfo: {
       location: 'Bergen, Norway',
-      email: 'digital@nrth.no',
+      email: 'thomas@nrth.no',
       phone: '+47 911 30 646',
     },
   }
